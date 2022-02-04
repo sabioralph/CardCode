@@ -70,6 +70,12 @@ public class Card
             this.value = value;
         }
     }
+
+    class System {
+
+        public System() {
+        }
+    }
     
     
 }

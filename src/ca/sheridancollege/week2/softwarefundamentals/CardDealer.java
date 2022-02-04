@@ -16,8 +16,9 @@ public class CardDealer
 {
     public static void main(String[] args)
     {
-        Card nineClubs = new Card("Clbs", 9);
+        Card nineClubs = new Card("Clubs", 9);
+        Card fiveSpades = new Card ("Spades",5);
         
-        System.out.print(nineClubs.setSuit("diamonds"));
+        System.out.println(nineClubs.setSuit("Club"));
     }
 }
